@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
         DataSource dataSource = new DataSource(MainActivity.this);
 
-        dataSource.insertProduct();
+//        dataSource.insertProduct();
         ArrayList<String> products = dataSource.getAllProducts();
 
         Log.d("SQL", String.valueOf(products.size()));
